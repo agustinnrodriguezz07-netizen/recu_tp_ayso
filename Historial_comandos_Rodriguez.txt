@@ -237,3 +237,14 @@ git add .
 git commit -m "ADD: Punto_F.sh"
 git push
 history -a
+cp ~/.bash_history ~/recu_tp_ayso/Historial_comandos_Rodriguez.txt
+cd ~/recu_tp_ayso
+git add .
+git commit -m "ADD: Historial de comandos de Agustin"
+git push
+cp ~/Punto_E/Punto_E.sh ~/recu_tp_ayso/
+cd ~/recu_tp_ayso
+git add .
+git commit -m "ADD: Punto_E.sh"
+git push
+history -a
